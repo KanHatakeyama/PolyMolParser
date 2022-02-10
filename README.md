@@ -1,5 +1,5 @@
 # PolyMolParser
- Parse polymer-type mol file
+- Parse custom polymer-compatible MOL file
 
 # Install
 - pip install git+https://github.com/KanHatakeyama/PolyMolParser.git
