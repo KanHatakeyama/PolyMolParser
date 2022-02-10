@@ -1,6 +1,9 @@
 # PolyMolParser
 - Parse custom polymer-compatible MOL file
 
+# Motivation
+- GUI editable, convenient recording format of polymer structures is needed for chemo-/materials-informatics
+
 # Install
 - pip install git+https://github.com/KanHatakeyama/PolyMolParser.git
 - RDKit and networkX are required
@@ -11,7 +14,7 @@
 1. Prepare molecules
 <img src="pics/1.png">
 
-2. Copy as MOL text
+2. Copy as MOL text (in the case of ChemDraw)
 <img src="pics/2.png">
 
 3. Run codes
@@ -95,6 +98,8 @@ M  END
   'Average_MW_per_block': 542.078},
  'status': 'successful parsing!'}
 ```
+
+    - Average molecular weight per repeating unit (or block), etc can be calculated automatically!
 
 # Todo
 - Refactoring & Bug check
