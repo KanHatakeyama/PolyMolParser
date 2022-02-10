@@ -13,15 +13,11 @@
 
 2. Copy as MOL text
 <img src="pics/2.png">
-3. Run codes
-    - `
-from PolyMolParser.dict_parse import parse_mol_text
-`
 
-    - `
-parse_mol_text(mol_text)
-`
-    - (`mol_text` is string object of mol data. See https://en.wikipedia.org/wiki/Chemical_table_file)
+3. Run codes
+- from PolyMolParser.dict_parse import parse_mol_text
+- parse_mol_text(mol_text)
+- (`mol_text` is string object of mol data. See https://en.wikipedia.org/wiki/Chemical_table_file)
 
 
 # Todo
