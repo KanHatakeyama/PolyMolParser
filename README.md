@@ -8,6 +8,12 @@
 # Quick start 
 - See Tutorial.ipynb for details
 
+1. Prepare molecules
+<img src="pics/1.png">
+
+2. Copy as MOL text
+<img src="pics/2.png">
+3. Run codes
     - `
 from PolyMolParser.dict_parse import parse_mol_text
 `
