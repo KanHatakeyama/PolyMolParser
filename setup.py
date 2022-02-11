@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 import sys
 
-sys.path.append('./polysmiles')
+sys.path.append('./PolyMolParser')
 
 setup(name='PolyMolParser',
-        version='2022.2.10',
+        version='2022.2.11',
         description='PolyMolParser',
         long_description="README",
         author='Kan Hatakeyama',
